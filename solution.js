@@ -20,7 +20,9 @@ console.log(mangoes*apples>mangoes+oranges);
 //    Subtract mangoes from apples and check whether this result is less than oranges divided by mangoes.
 console.log(apples-mangoes<oranges/mangoes);
 //    Check whether mangoes, apples and oranges are equal.
-console.log(mangoes===apples && apples===oranges);
+//console.log(mangoes===apples && apples===oranges);
+// YOU MEANT NOT EQUALL?
+console.log(mangoes!==apples && apples!==oranges &&mangoes!=oranges);
 //    Check whether the remainder of apples divided by mangoes and the remainder of oranges divided by mangoes are equal.
 console.log(apples%mangoes===oranges%mangoes);
 //    Check whether mangoes added to apples is greater than oranges minus mangoes. If it is not, find an operator which will give a result of true.
